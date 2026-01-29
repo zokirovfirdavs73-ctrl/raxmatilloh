@@ -1,0 +1,53 @@
+.sec5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sec5_t_w{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.h1{
+    font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 68px;
+leading-trim: NONE;
+line-height: 74px;
+letter-spacing: 0%;
+
+}
+.sec5_t h2{
+    font-family: Manrope;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 38px;
+line-height: 48px;
+letter-spacing: -4%;
+margin-bottom: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sec5_t h2{
+    font-family: Manrope;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: -2%;
+margin-bottom: 12px;
+}
+.sec5_t h4{
+    margin-top: 12px;
+}
+
+.h3_t{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

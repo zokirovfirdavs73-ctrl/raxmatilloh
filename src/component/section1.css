@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.zlon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.zlon_text{
+    color:white;
+    
+}
+
+
+.zlon_text h1{
+    font-size: 56px;
+    font-weight: 800;
+
+
+}
+
+.zlon_text p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.btn_wrp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.btn_wrp button {
+    padding: 18px 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #10A37F;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .zlon{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zlon_text{
+        text-align: center;
+    }
+    .btn_wrp{
+        flex-wrap: wrap;
+    }
+}
